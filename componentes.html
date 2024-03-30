@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria de sistemas </title>
+    <link rel="shortcut icon" href="img/icono.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Teoría General de sistemas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="elementos.html">Elementos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="componentes.html">Componentes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner" >
+          <div class="carousel-item active" style="max-height: 450px;"> 
+            <img src="img/portada4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="max-height: 450px;">
+            <img src="img/portada.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" style="max-height: 450px;">
+            <img src="img/portada2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <br><br>
+      <div class="container">
+        <h2 class="text-primary-emphasis text-center">Componentes de un sistema e identificación de subsistemas</h2><br><br>
+        <h4 class="text-primary-emphasis text-center">Ejemplos de componentes de sistemas:</h4>   
+        <div class="row">
+        </div>
+    </div>
+
+    <div class="container ">
+      <div class="card mb-3 border-0" >
+        <div class="row g-0">
+          <div class="col-md-5"><br><br>
+            <img src="img/comp3.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body"> <br><br>
+              <h5><li class="text-primary">Procesador (CPU):</li></h5>
+              <p>Componente de procesamiento que ejecuta instrucciones y realiza operaciones sobre datos.</p>
+            <h5><li class="text-primary">Memoria RAM:</li></h5>
+              <p>Componente de procesamiento que ejecuta instrucciones y realiza operaciones sobre datos.</p>
+            <h5><li class="text-primary">Disco Duro:</li></h5>
+              <p>Componente de procesamiento que ejecuta instrucciones y realiza operaciones sobre datos.</p>
+            <h5><li class="text-primary">Pantalla:</li></h5>
+              <p>Componente de procesamiento que ejecuta instrucciones y realiza operaciones sobre datos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="card mb-3 border-0" >
+        <div class="row g-0">
+          <div class="col-md-7">
+            <div class="card-body"><br>
+              <h5><li class="text-primary">Teclado y ratón:</li></h5>
+              <p>Dispositivos de entrada que permiten al usuario interactuar con el sistema.</p>
+            <h5><li class="text-primary">Sistema operativo:  </li></h5>
+              <p>Software que gestiona los recursos del sistema y proporciona una interfaz entre el hardware y el software de aplicación.</p>
+            <h5><li class="text-primary">Base de Datos:</li></h5>
+              <p>Almacenamiento organizado de datos utilizado por el sistema para almacenar información de manera estructurada.</p>
+            <h5><li class="text-primary">Red de Comunicaciones:</li></h5>
+              <p>Sistema que permite la comunicación entre diferentes dispositivos y sistemas.</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="img/comp4.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <h2 class="text-primary-emphasis text-center">Subsistemas</h2>
+      <br><br>
+      <div class="row">
+          <div class="col"> <h5 class="text-primary "><li>Origen:</li></h5> 
+            Subsistema de gestión de memoria: Responsable de asignar y liberar memoria para programas y procesos.<br><br>
+            Subsistema de gestión de archivos: Encargado de crear, leer, escribir y eliminar archivos en el sistema de almacenamiento.<br><br>
+            Subsistema de administración de procesos: Controla la ejecución de programas, incluyendo la planificación de la CPU. <br><br><br>
+          <h5 class="text-primary"><li>Redes de computadoras:</li></h5> 
+            <p>Subsistema de protocolos de comunicación: Define los formatos para la transmisión de datos a través de la red, como TCP/IP.<br><br>
+              Subsistema de enrutamiento: Determina la mejor ruta para enviar datos de un origen a un destino a través de la red.<br><br>
+              Subsistema de seguridad de red: Encargado de proteger la red y los datos contra amenazas externas, como detección de intrusiones.</p></div>
+          <div class="col"> <h5 class="text-primary "><li>Desarrollo de software:</li></h5>
+              Subsistema de compilación: Convierte el código fuente en un formato ejecutable o en otro formato utilizable.<br><br>
+              Subsistema de depuración: Facilita la corrección de errores en el código mediante herramientas como depuradores.<br><br>
+              Subsistema de control de versiones: Gestiona las distintas versiones del código fuente y facilita la colaboración entre desarrolladores.<br><br><br>
+              <h5 class="text-primary"><li>Sistemas de Bases de Datos:</li></h5> 
+            <p>Subsistema de gestión de transacciones: Garantiza la consistencia y la integridad de los datos mediante operaciones de transacción.<br><br>
+              Subsistema de optimización de consultas: Optimiza las consultas de base de datos para mejorar el rendimiento y la eficiencia.<br><br>
+              Subsistema de seguridad de datos: Controla el acceso a los datos y protege la integridad de la información almacenada.</p></div>
+      </div>
+  </div>
+    
+    <div class="container mt-5">
+        <div class="row"> 
+            <h2 class="text-primary-emphasis text-center">Componentes de un sistema</h2>
+            <br><br><br>
+            <div class="col-md-3">
+                <div class="card" ><br><br>
+                    <img src="img/icon5.png" class="card-img-top"  alt="..."><br><br>
+                    <div class="card-body">
+                      <h5 class="text-primary card-title">Entradas (Inputs):</h5>
+                      <p class="card-text">Son los datos, señales o materiales que ingresan al sistema desde su entorno externo.</p>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" >
+                    <img src="img/icon6.png" class="card-img-top"  alt="...">
+                    <div class="card-body">
+                      <h5 class="text-primary card-title">Procesamiento:</h5>
+                      <p class="card-text ">Es el conjunto de operaciones o actividades que el sistema realiza sobre las entradas para producir salida.</p>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" >
+                    <img src="img/icon7.png" class="card-img-top"  alt="..."><br>
+                    <div class="card-body">
+                      <h5 class="text-primary card-title">Salidas (Outputs)</h5>
+                      <p class="card-text">Son los resultados o productos que el sistema genera como resultado del procesamiento de las entradas.</p>
+
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card" ><br> 
+                    <img src="img/icon8.png" class="card-img-top"  alt="...">
+                    <div class="card-body">
+                      <h5 class="text-primary card-title">Almacenamiento de Datos:</h5>
+                      <p class="card-text justify-content">Es donde se guardan los datos o la información que el sistema necesita para su funcionamiento.</p>
+
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="contenedor-footer">
+          <div class="content-foo">
+              <h4>Editores:</h4>
+              <br><i class="text-white-50 bi bi-instagram" ><a class="text-white-50 "href="https://www.instagram.com/sofix_soff/?hl=es-l">  Sofía Álvarez. </a></i>
+              <br><br><i class="text-white-50 bi bi-instagram" ><a class="text-white-50 "href="https://www.instagram.com/lau.contreras_/?hl=es-l">  Laura Contreras. </a></i>
+              <br><br><i class="text-white-50 bi bi-instagram" ><a class="text-white-50 "href="https://www.instagram.com/mikey_stc/?hl=es-l">  Michael Taborda. </a></i>
+          </div>
+          <div class="content-foo">
+              <h4>Sobre nosotros:</h4>
+              <br><i class="text-white-50 bi bi-arrow-up-right-circle" ><a class="text-white-50 "href="https://www.unimonserrate.edu.co/"> UNIVERSIDAD: Unimonserrate.</a></i>
+              <br><br><i class="text-white-50 bi bi-arrow-up-right-circle" ><a class="text-white-50 "href="https://www.unimonserrate.edu.co/ingenieria-de-sistemas/"> CARRERA: Ingeniería de sistemas. </a></i>
+              <br><br><i class="text-white-50 bi bi-arrow-up-right-circle" ><a class="text-white-50 "href="https://www.unimonserrate.edu.co/ingenieria-de-sistemas/">  SEMESTRE: Segundo semestre. </a></i>
+          </div>
+          <div class="content-foo">
+              <h4>Redes sociales:</h4>
+              <br><i class="text-white-50 bi bi-facebook" ><a class="text-white-50 "href="https://www.facebook.com/Unimonserrate"> Facebook</a></i>
+              <br><br><i class="text-white-50 bi bi-instagram" ><a class="text-white-50 "href="https://www.instagram.com/unimonserrate/?hl=es-l"> Instagram </a></i>
+              <br><br><i class="text-white-50 bi bi-twitter-x" ><a class="text-white-50 "href="https://twitter.com/Unimonserrate"> Twitter </a></i>
+          </div>
+       </div>
+       <h2 class="titulo-final">&copy; Página web | Componentes</h2>
+  </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
